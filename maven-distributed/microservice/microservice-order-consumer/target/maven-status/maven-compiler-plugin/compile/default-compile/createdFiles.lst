@@ -1,0 +1,3 @@
+com\autoai\order\RestTmplateConfig.class
+com\autoai\order\ConsumerServerApplication.class
+com\autoai\order\controller\OrderConsumerController.class

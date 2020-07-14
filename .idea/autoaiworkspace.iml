@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <output url="file:///production/autoaiworkspace" />
+    <output-test url="file:///test/autoaiworkspace" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/maven-distributed/microservice/microservice-common/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/maven-distributed/microservice/microservice-common/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/maven-distributed/microservice/microservice-order-provider01/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/maven-distributed/microservice/microservice-order-provider01/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/maven-distributed/microservice/microservice-order-provider01/src/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/maven-distributed/microservice/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/maven-distributed/microservice/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/maven-distributed/microservice/src/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/maven-distributed/microservice/microservice-common/src/test" isTestSource="true" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

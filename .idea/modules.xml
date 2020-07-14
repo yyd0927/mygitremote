@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/autoaiworkspace.iml" filepath="$PROJECT_DIR$/.idea/autoaiworkspace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-distributed/microservice/microservice.iml" filepath="$PROJECT_DIR$/maven-distributed/microservice/microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-distributed/microservice/microservice-common/microservice-common.iml" filepath="$PROJECT_DIR$/maven-distributed/microservice/microservice-common/microservice-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-distributed/microservice/microservice-order-consumer/microservice-common (1).iml" filepath="$PROJECT_DIR$/maven-distributed/microservice/microservice-order-consumer/microservice-common (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-distributed/microservice/microservice-order-provider01/microservice-order-provider01.iml" filepath="$PROJECT_DIR$/maven-distributed/microservice/microservice-order-provider01/microservice-order-provider01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maven-distributed/microservice/microserviceorderconsumer.iml" filepath="$PROJECT_DIR$/maven-distributed/microservice/microserviceorderconsumer.iml" />
+    </modules>
+  </component>
+</project>

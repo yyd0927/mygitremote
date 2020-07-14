@@ -1,0 +1,6 @@
+com\autoai\order\service\OrderProviderService.class
+com\autoai\order\OrderServerApplication.class
+com\autoai\order\service\impl\OrderProviderServiceImpl.class
+com\autoai\order\controller\OrderProviderController.class
+com\autoai\order\entity\OrderProvider.class
+com\autoai\order\mapper\OrderProviderMapper.class

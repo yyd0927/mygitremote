@@ -1,0 +1,39 @@
+# 服务端口号
+server:
+  port: 8002
+  servlet:
+    context-path: /microservice
+#连接配置信息
+spring:
+#  application:
+#    name: microservice-order # 对外暴露的服务名称
+  profiles:
+    active: jdbc
+  # 数据源配置
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/mysql?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
+#mybaits配置
+mybatis:
+  mapper-locations: classpath*:/mybatis/*.xml #根据mapper.xml所在的目录设置
+  type-aliases-package: com/autoai/order/entity #对应实体类的路径
+  configuration:
+    cacheEnabled: false
+    lazyLoadingEnabled: false
+    multipleResultSetsEnabled: true
+    useColumnLabel: true
+    useGeneratedKeys: true
+    autoMappingBehavior: PARTIAL
+    defaultExecutorType: SIMPLE
+    defaultStatementTimeout: 25
+    safeRowBoundsEnabled: false
+    mapUnderscoreToCamelCase: true
+    localCacheScope: SESSION
+    jdbcTypeForNull: OTHER
+    lazyLoadTriggerMethods: equals,clone,hashCode,toString
+
+#logging:
+#  level:
+#    root: error
